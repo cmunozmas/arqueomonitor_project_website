@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Arqueomonitor</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+<!--   <link rel="StyleSheet" href="css/Arqueomonitor_Data_Portal.css" type="text/css" /> -->
+  <link rel="StyleSheet" href="css/main.css" type="text/css" />
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <script type = "text/javascript" src="js/html_footer.js"></script>
+
+  
+<style>
+/* Images sequence */
+.wrapper {
+	width: 91%;
+	display: inline-block;
+	position: absolute;
+}
+.wrapper:after {
+	padding-top: 56.25%;
+	display: block;
+	content: '';
+}
+.containerImagesIndex {
+	position:absolute;
+	text-align: left;
+	left:0%;
+	top:2%;
+    width: 65%;
+    height: 15%;
+}
+/* resize images */
+.containerImagesIndex img {
+    width: 165%;
+    height: 700%;
+	border-radius: 2px;
+}
+</style>
+</head>
+<body onload="IniciarSecuencia()">
+
+<nav class="navbar navbar-inverse">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>          
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span> 
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>	
+      </button>
+      <!-- <a class="navbar-brand" href="#"><img style = "position:relative;	border-radius: 1px; left:-10%; top:-50%; width: 108%; height: 200%" src="image/logo_arqueomonitor.jpg" alt="logo arqueomonitor"; /> </a> -->
+    </div>
+    <div class="collapse navbar-collapse" id="myNavbar">
+      <ul class="nav navbar-nav">
+        <li><a href="index.html">Home</a></li>
+		<li><a href="html/about.html">About</a></li>
+		<li><a href="html/staff.html">Project Staff</a></li>
+		<li><a href="html/getData.html">Get Data</a></li>
+	<!-- 	<li><a href="html/dataVisual.html">Data Visualization</a></li> -->
+		<li><a href="html/publications.html">Contributions</a></li>
+		<li><a href="html/contact.html">Contact Us</a></li>
+		<li><a href="html/links.html">Links</a></li>
+      </ul>
+      <ul class="nav navbar-nav navbar-right">
+<!--         <li><a href="#"><span class="glyphicon glyphicon-log-in"></span> Login</a></li> -->
+      </ul>
+    </div>
+  </div>
+</nav>
+  
+<div class="container-fluid text-center">    
+  <div class="row content">
+    <div class="col-sm-2 sidenav">
+<!--       <p><a href="#">Link</a></p>
+      <p><a href="#">Link</a></p>
+      <p><a href="#">Link</a></p> -->
+    </div>
+    <div class="col-sm-8 text-left"> 
+      <center><h1>ARQUEOMONITOR</h1></center>
+	  <hr>
+	  <h4><center> STUDY OF THE INFLUENCE OF PHYSICAL, CHEMICAL AND BIOLOGICAL CONDITIONS IN THE DAMAGE AND PROTECTION OF UNDERWATER HISTORICAL HERITAGE CTM2009-08668  AND  CTM2010-1636 </center></h4>
+	  <hr>
+	  <div class="wrapper">
+		<div class="containerImagesIndex">
+			<img alt="Secuencia" name="secuencia">
+ 			<!--<img  alt="Secuencia" name="secuencia" img style="box-shadow: 10px 10px 5px #ccc;"> -->
+			<hr>
+<!-- 			<a href = "http://www.mineco.gob.es/portal/site/mineco/" target = "blank"><img style = "position:absolute; left:0%; top:732%; width: 25%; height: 45%" src="image/MINECO.png" alt="logo ministerio"; /></a>
+			<a href = "http://www.campusdelmar.es/en" target = "blank"><img style = "position:absolute; left:145%; top:732%; width: 20%; height: 45%" src="image/logo_ceimar.jpg" alt="logo ceimar"; /></a> -->
+		</div>		
+	  </div>
+    </div>
+    <div class="col-sm-2 sidenav">
+<!--       <div class="well">
+        <p>ADS</p>
+      </div>
+      <div class="well">
+        <p>ADS</p>
+      </div> -->
+    </div>
+  </div>
+</div>
+<script type="text/javascript" src="js/slideshow_Home.js"></script>
+<footer class="container-fluid text-center"> 
+	<a href = "http://www.mineco.gob.es/portal/site/mineco/" target = "blank"><img style = "position:relative; left:0%; top:0%; width: 10%; height: 20%" src="image/MINECO.png" alt="logo ministerio"; align="left"/></a>
+	<a href = "http://www.campusdelmar.es/en" target = "blank"><img style = "position: relative; left:42%; top:0%; width: 6%; height: 1%;" src="image/logo_ceimar.jpg" alt="logo ceimar";align="left" /></a>
+	<p id="title"><script>footerText();</script></p>	
+</footer>
+
+
+
+
+</body>
+</html>

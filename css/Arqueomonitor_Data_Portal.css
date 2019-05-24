@@ -1,0 +1,312 @@
+@charset "utf-8";
+/* CSS Document */
+html, body {
+	margin:0;
+	padding:0;
+	min-height: 100%;
+}
+
+body {
+	/*background-image: url("../image/buzo_arqueomonitor.jpg");*/
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-position: center;
+	background-size: cover;
+	background-color: #f7f4f4;	
+ 	}
+
+/*Estilo titulo h1*/
+/* h1 {
+	color:#FFF;
+	font-size: 32pt;
+	font-weight:bolder;
+	font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+	font-style: italic;
+	font-variant: normal;
+} */
+
+h2 {
+	color:#FFF;
+	font-size: 18pt;
+	font-weight:bolder;
+	font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+	font-style: italic;
+	font-variant: normal;
+}
+
+#caja1 {
+	position:absolute;
+	border-radius: 10px;
+	background-color: #14639F;
+	text-align: center;
+	left:12%;
+	top:1%;
+	width:85%;
+	height:14%;
+	z-index: 2;
+}
+
+#cajaLogo {
+	position:absolute;
+	left:13%;
+	top:3%;
+	width:7%;
+	height:1%;
+	z-index: 3;
+}
+
+.wrapper {
+	width: 91%;
+	display: inline-block;
+	position: absolute;
+}
+.wrapper:after {
+	padding-top: 56.25%;
+	display: block;
+	content: '';
+}
+.containerImagesIndex {
+	position:absolute;
+	text-align: left;
+	left:0%;
+	top:2%;
+    width: 65%;
+    height: 15%;
+}
+
+
+/* resize images */
+.containerImagesIndex img {
+    width: 165%;
+    height: 700%;
+	border-radius: 2px;
+}
+
+
+
+#temporaryBox {
+	position:absolute;
+	text-align: left;
+	left:10%;
+	top:50%;
+	width:50%;
+	height:80%;
+}
+temporaryFont {
+	color:#f000000;
+	font-size: 32pt;
+	font-weight:bolder;
+	font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+	font-style: italic;
+	font-variant: normal;
+}
+
+indexFont {
+	color:#f000000;
+	font-size: 1em;
+	font-weight:bolder;
+	font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+	font-style:normal;
+	font-variant:normal;
+	text-decoration:none;
+}
+.containerAbout {
+	position:absolute;
+	text-align: justify;
+	left:10%;
+	top:18%;
+	width:45%;
+	height:60%;
+	
+}
+
+
+.containerAboutFougueux {
+	position:absolute;
+	text-align: justify;
+	left:10%;
+	top:18%;
+	width:77%;
+	height:30%;
+}
+aboutFont {
+	color:#f000000;
+	font-size: 95%;
+	/*font-weight:bolder;*/
+	font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+	font-style: normal;
+	font-variant: normal;
+	text-decoration: none;
+}
+
+
+
+
+#caja3 {
+	
+	border-radius: 10px;
+	position:absolute;
+	text-align: center;
+	background-color: #666;
+	/*opacity:0.5;*/
+	left:7px;
+	top:173px;
+	width:553px;
+/*	height:443px;*/
+	height:80%;
+}
+
+/*caja detras secuencia imagenes*/
+#caja4 {
+	position:absolute;
+	text-align: center;
+	/*background-color: #262626;*/
+	/*opacity:0.5;*/
+	left:16%;
+	top:16.5%;
+    width: 80%;
+    height: 2%;
+
+	z-index: 0;
+}
+/*Caja del mapa de data visualization*/
+#caja5 {
+	border-radius: 10px;
+	position:absolute;
+	text-align: center;
+	background-color: #666;
+	/*opacity:0.5;*/
+	left:36px;
+	top:333px;
+	width:96%;
+	height:620px;
+}
+/*caja con los logos en Data visualization*/
+#caja7 {
+	border-radius: 10px;
+	position:absolute;
+	text-align: center;
+	background-color: #666;
+	/*opacity:0.5;*/
+	left:36px;
+	top:963px;
+	width:96%;
+	height:90px;
+}
+/*caja texto Data visualization*/
+#caja6 {
+	border-radius: 20px;
+	position:absolute;
+	background-color: #666;
+	/*opacity:0.5;*/
+	left:36px;
+	top:173px;
+	width:96%;
+	height:150px;
+	text-align: center;
+	font-weight:bolder;
+	font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+	font-style: normal;
+	font-variant: normal;
+	font-size:15px;
+	text-decoration: none;
+}
+/*Estilo del mapa*/
+#map{
+	position:absolute;
+	border-radius: 2px;
+	left: 5%;
+	top:8%;
+	width: 90%;
+	height: 90%;
+	/*border-style: solid;
+	border-color: #fc39;
+	border-width: 2px;*/
+}
+
+
+/*Barra de menu superior*/
+#button {
+	padding-top: 0%;
+	padding-left: 8%;
+	width: 120%;
+}
+#button li {
+display: inline;
+
+}#button li a {
+	
+	font-weight:bolder;
+	font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+	font-style: normal;
+	font-variant: normal;
+	font-size:84%;
+	text-decoration: none;
+	float:left;
+	padding: 2.5%;
+	padding-right: 0%;
+	background-color: #14639F;
+	color: #fff;
+}
+/*color boton al situar puntero*/
+#button li a:hover {
+	color: #FF3;
+	margin-top:-2px;
+	padding-bottom:12px;
+	
+}
+#button {	
+	position:absolute;
+	top:2%;
+	left:28%;
+	/*width: 777px;*/
+	max-width: 61%;
+	max-height:8%;
+	z-index: 3;
+	
+}
+
+
+#data {
+	position:absolute;
+	left:39px;
+	top:200px;
+	width: 268px;
+	height: 88px;
+}
+
+.infoLayer {
+	padding: 5px 10px;
+	text-align: justify;
+	color: #000;
+	background-color: #FFF;
+	font-weight:bolder;
+	font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+	font-style: normal;
+	font-variant: normal;
+	font-size: 10px;
+	left:120px;
+	top:325px;
+	width:560px ;
+	height: 120px;
+	border-radius: 5px;
+	opacity: 0.8;
+	line-height: 1.3;
+	
+}
+
+<style>
+.leaflet-control-layers-toggle:after{ 
+    content:"your text"; 
+    color:#000 ;
+}
+.leaflet-control-layers-toggle{ 
+    width:auto;
+    background-position:3px 50% ;
+    padding:3px;
+    padding-left:36px;
+    text-decoration:none;
+    line-height:36px;
+
+}
+</style>

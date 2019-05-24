@@ -1,0 +1,205 @@
+@charset "utf-8";
+/* CSS Document */
+
+getDataFont {
+	color:#fff;
+	font-size: 170%;
+	font-weight:bolder;
+	font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+	font-style:normal;
+	font-variant:normal;
+	text-decoration:none;
+}
+
+.containerStaffManolo {
+	position:absolute;
+	text-align: justify;
+	left:42%;
+	top:18%;
+	width:25%;
+	height:20%;
+}
+.containerDescManolo {
+	position:absolute;
+	text-align: justify;
+	left:62%;
+	top:18%;
+	width:28%;
+	height:20%;
+}
+.containerStaffManoloPhoto{
+	position:absolute;
+	text-align: justify;
+	left:12%;
+	top:18%;
+	width:15%;
+	height:20%;
+}
+.containerStaffManoloPhotoField{
+	position:absolute;
+	text-align: justify;
+	left:26%;
+	top:18%;
+	width:15%;
+	height:20%;
+}
+
+.containerStaffAlfredo {
+	position:absolute;
+	text-align: justify;
+	left:42%;
+	top:48%;
+	width:25%;
+	height:20%;
+}
+.containerDescAlfredo {
+	position:absolute;
+	text-align: justify;
+	left:62%;
+	top:48%;
+	width:28%;
+	height:20%;
+}
+.containerStaffAlfredoPhoto{
+	position:absolute;
+	text-align: justify;
+	left:12%;
+	top:48%;
+	width:15%;
+	height:20%;
+}
+
+.containerStaffTomas {
+	position:absolute;
+	text-align: justify;
+	left:42%;
+	top:78%;
+	width:25%;
+	height:20%;
+}
+.containerDescTomas {
+	position:absolute;
+	text-align: justify;
+	left:62%;
+	top:78%;
+	width:28%;
+	height:20%;
+}
+.containerStaffTomasPhoto{
+	position:absolute;
+	text-align: justify;
+	left:12%;
+	top:78%;
+	width:15%;
+	height:20%;
+}
+.containerStaffTomasPhotoField{
+	position:absolute;
+	text-align: justify;
+	left:26%;
+	top:78%;
+	width:15%;
+	height:20%;
+}
+
+.containerStaffManu {
+	position:absolute;
+	text-align: justify;
+	left:42%;
+	top:108%;
+	width:25%;
+	height:20%;
+}
+.containerDescManu {
+	position:absolute;
+	text-align: justify;
+	left:62%;
+	top:108%;
+	width:28%;
+	height:20%;
+}
+.containerStaffManuPhoto{
+	position:absolute;
+	text-align: justify;
+	left:12%;
+	top:108%;
+	width:15%;
+	height:20%;
+}
+
+.containerStaffCristian {
+	position:absolute;
+	text-align: justify;
+	left:42%;
+	top:138%;
+	width:25%;
+	height:20%;
+}
+.containerDescCristian {
+	position:absolute;
+	text-align: justify;
+	left:62%;
+	top:138%;
+	width:28%;
+	height:20%;
+}
+.containerStaffCristianPhoto{
+	position:absolute;
+	text-align: justify;
+	left:12%;
+	top:138%;
+	width:15%;
+	height:20%;
+}
+.containerStaffCristianPhotoField{
+	position:absolute;
+	text-align: justify;
+	left:26%;
+	top:138%;
+	width:15%;
+	height:20%;
+}
+
+.containerStaffAlejandro {
+	position:absolute;
+	text-align: justify;
+	left:42%;
+	top:168%;
+	width:25%;
+	height:20%;
+}
+.containerDescAlejandro {
+	position:absolute;
+	text-align: justify;
+	left:62%;
+	top:168%;
+	width:35%;
+	height:20%;
+}
+.containerStaffAlejandroPhoto{
+	position:absolute;
+	text-align: justify;
+	left:12%;
+	top:168%;
+	width:15%;
+	height:20%;
+}
+.containerStaffAlejandroPhotoField{
+	position:absolute;
+	text-align: justify;
+	left:26%;
+	top:168%;
+	width:15%;
+	height:20%;
+}
+
+#wrapper { 
+  position: absolute;
+  top: 60px;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  background: snow;
+  overflow-y: scroll
+}
+#wrapper div { min-height: 100% }
